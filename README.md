@@ -1,6 +1,6 @@
 # CCS-EOROptTool
 
-**CCS-EOROptTool** is a user-friendly graphical user interface (GUI) application designed to provide fast and intelligent predictions of CO₂ storage capacity and cumulative oil production in unconventional reservoirs using a trained artificial neural network (ANN).
+**CCS-EOROptTool** is a user-friendly graphical user interface (GUI) application is designed as a surrogate to provide fast and intelligent predictions of CO₂ storage capacity and cumulative oil production in unconventional reservoirs using a trained artificial neural network (ANN).
 
 This tool supports decision-making in Carbon Capture and Storage with Enhanced Oil Recovery (CCS-EOR) by enabling quick assessments based on key reservoir and operational parameters. The model is both explainable and explicit, offering transparency and interpretability that aligns with engineering best practices.
 
@@ -33,7 +33,7 @@ Make sure you have the following installed:
 * Required Python libraries (install with pip if missing):
 
 ```bash
-pip install numpy pandas matplotlib tkinter joblib
+pip install numpy pandas matplotlib tkinter joblib PyQt5
 ```
 
 > **Note**: `tkinter` comes pre-installed with most Python distributions. If you're using a minimal install (like some Linux distros), you may need to install it separately.
@@ -44,9 +44,9 @@ pip install numpy pandas matplotlib tkinter joblib
 
 | File                        | Description                                         |
 | --------------------------- | --------------------------------------------------- |
-| `CCS-EOROptTool GUI.py`     | The main GUI application script.                    |
-| `trainedNN_CO2weights.json` | Pre-trained ANN CO2 weights file (used by the GUI). |
-| `trainedNN_Oilweights.json` | Pre-trained ANN Oil weights file (used by the GUI). |
+| `CCS-EOROptTool GUI_v1.py`  | The main GUI application script.                    |
+| `trainedNN_FullCO2.json`    | Pre-trained ANN CO2 weights file (used by the GUI). |
+| `trainedNN_FullOil.json`    | Pre-trained ANN Oil weights file (used by the GUI). |
 | `README.md`                 | This readme file.                                   |
 
 ---
@@ -62,7 +62,7 @@ pip install numpy pandas matplotlib tkinter joblib
 4. Run the Python script:
 
 ```bash
-python "CCS-EOROptTool GUI.py"
+python "CCS-EOROptTool GUI_v1.py"
 ```
 
 The GUI window will open, allowing you to input key reservoir parameters such as:
