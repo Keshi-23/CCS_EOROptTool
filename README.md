@@ -85,6 +85,33 @@ Predictions are displayed along with uncertainty intervals, offering a robust an
 
 ---
 
+## 📚 Publication & How to Cite
+
+The **CCS-EOROptTool** was developed based on the methodology presented in the following peer-reviewed publication:
+
+**Longe, P., Iyiola, Z., Ejehu, O., & Onu, J. (2026).**  
+An interpretable and explicit machine learning technique for predicting CO₂ storage and oil production in residual oil zones. *Sustainable Earth Resources Communications, 2*(1), 13–36.  
+https://doi.org/10.46690/serc.2026.01.02
+
+If you use **CCS-EOROptTool** in your research, publication, or project, please cite the paper above.
+
+### BibTeX
+
+```bibtex
+@article{longe2026ccseor,
+  author  = {Longe, P. and Iyiola, Z. and Ejehu, O. and Onu, J.},
+  title   = {An interpretable and explicit machine learning technique for predicting CO2 storage and oil production in residual oil zones},
+  journal = {Sustainable Earth Resources Communications},
+  volume  = {2},
+  number  = {1},
+  pages   = {13--36},
+  year    = {2026},
+  doi     = {10.46690/serc.2026.01.02}
+}
+```
+
+---
+
 ## 📬 Feedback & Contributions
 
 We welcome contributions, suggestions, and feedback. Please feel free to open issues or submit pull requests.
@@ -93,7 +120,4 @@ We welcome contributions, suggestions, and feedback. Please feel free to open is
 
 ## 📄 License
 
-This project is licensed under [MIT License](LICENSE).
-
----
-
+This project is licensed under the [MIT License](LICENSE).
